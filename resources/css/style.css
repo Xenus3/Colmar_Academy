@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 64px;
+    padding: 16px 24px;
+    width: 100%
+}
+
+header ul{
+    display: flex;
+    width: 70%;
+    justify-content: end;
+    
+}
+
+header ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+
+header p {
+    height: 32px;
+    padding-top: 5px;
+    font-weight: bold;
+    width: 25%;
+}
+
+header img {
+    width: 5%;
+}
+
+.header {
+    font-weight: lighter;
+}
