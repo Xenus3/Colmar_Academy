@@ -45,7 +45,7 @@ header img {
     display: flex;
     width: 100%;
     background-color: lightgrey;
-    
+    flex-wrap: wrap;
     
 }
 
@@ -55,7 +55,7 @@ header img {
 }
 
 .banner-text {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,4 +152,93 @@ header img {
 
 .lecture {
     background-color: lightgray;
+}
+
+.learning {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.learning h2 {
+    margin-top: 32px;
+}
+
+.learning-1 {
+    max-width: 100%;
+    display: flex;
+   margin: 32px 72px; 
+   flex-wrap: wrap;
+   
+}
+
+.learning-1 div img{
+    width: 100%;
+    height:auto;
+}
+
+.learning-1 div {
+    flex: 25%;
+    margin: 16px;
+    background-color: white;
+}
+
+.learning-1 div h3, .learning-1 h4, .learning-1 p{
+    margin: 16px;
+    text-align: left;
+}
+
+
+.exibit {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.exibit-vid {
+    width: 60%;
+    margin: 0 24px 24px 24px;
+}
+
+.exibit-vid video {
+    width: 100%;
+}
+
+.exibit-txt {
+    width: 40%;
+    
+}
+
+.exibit-txt img {
+    width: 35%;
+    margin: 16px;
+}
+
+.exibit-txt div {
+    display: flex;
+}
+
+.exibit-content {
+    display: flex;
+}
+
+.exibit h2 {
+    margin: 32px auto;
+}
+
+footer p{
+    display:inline;
+}
+
+footer a {
+    text-decoration: none;
+    float: right;
+    margin: 5px;
+}
+
+footer {
+    margin: 16px 24px;
 }
